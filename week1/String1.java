@@ -125,42 +125,33 @@ public class String1 {
     int score = 0;
 
     switch (Grade) {
-      case 10: {
+      case 90: {
         score += 10;
-        break;
-      }
-      case 20: {
-        score += 10;
-        break;
-      }
-      case 30: {
-        score += 10;
-        // ... lines of code
-        break;
-      }
-      case 40: {
-        score += 10;
-        break;
-      }
-      case 50: {
-        score += 10;
-        break;
-      }
-      case 60: {
-        score += 10;
-        break;
-      }
-      case 70: {
-        score += 10;
-        break;
       }
       case 80: {
         score += 10;
-        break;
       }
-      case 90: {
+      case 70: {
         score += 10;
-        break;
+        // ... lines of code
+      }
+      case 60: {
+        score += 10;
+      }
+      case 50: {
+        score += 10;
+      }
+      case 40: {
+        score += 10;
+      }
+      case 30: {
+        score += 10;
+      }
+      case 20: {
+        score += 10;
+      }
+      case 10: {
+        score += 10;
       }
       default: {
         break;
