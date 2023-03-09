@@ -3,36 +3,36 @@ package week1;
 public class LoopsVincent {
   public static void main(String[] args) {
     // /**
-    //  * * x=0, row=0, *
-    //  * ** x=1, row=1, **
-    //  * ***
-    //  * ****
-    //  * *****
-    //  */
+    // * * x=0, row=0, *
+    // * ** x=1, row=1, **
+    // * ***
+    // * ****
+    // * *****
+    // */
     // for (int x = 0; x < 5; x++) { // rows
-    //   for (int y = x; y >= 0; y--) {
-    //     System.out.print("*");
-    //   }
-    //   System.out.println("");
+    // for (int y = x; y >= 0; y--) {
+    // System.out.print("*");
+    // }
+    // System.out.println("");
     // }
 
     // /**
-    //  *     *
-    //  *    **
-    //  *   ***
-    //  *  ****
-    //  * *****
-    //  */
+    // * *
+    // * **
+    // * ***
+    // * ****
+    // * *****
+    // */
     // for (int x = 0; x < 5; x++) { // rows
-    //   // print space
-    //   for (int z = 4 - x; z > 0; z--) {
-    //     System.out.print(" ");
-    //   }
-    //   // print *
-    //   for (int y = x; y >= 0; y--) {
-    //     System.out.print("*");
-    //   }
-    //   System.out.println("");
+    // // print space
+    // for (int z = 4 - x; z > 0; z--) {
+    // System.out.print(" ");
+    // }
+    // // print *
+    // for (int y = x; y >= 0; y--) {
+    // System.out.print("*");
+    // }
+    // System.out.println("");
     // }
 
     // *
@@ -65,9 +65,14 @@ public class LoopsVincent {
       }
       // for loop
       System.out.println("7");
-      //print mirror of *
-      for (int y = x; y > 0;y--){}
+
+      // print mirror of *
+    }
+    for (int x = 1; x < 5; x++) {
+      for (int y = x; y < 0; y++) {
+        System.out.print("8");
+      }
+      System.out.print("9");
     }
   }
-
 }
