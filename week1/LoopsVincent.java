@@ -41,8 +41,7 @@ public class LoopsVincent {
     // *******
     // ********
     // Diamond
-    for (int x = 0; x < 5; x++) { // rows
-      // print space
+    for (int x = 0; x < 5; x++) { // rows // print space
       for (int z = 4 - x; z >= 0; z--) {
         System.out.print("1");
       }
@@ -56,6 +55,11 @@ public class LoopsVincent {
       }
       System.out.println("4");
     }
+
+
+
+
+    
     for (int x = 1; x < 5; x++) { // rows
       for (int y = x; y >= 0; y--) {
         System.out.print("5");
