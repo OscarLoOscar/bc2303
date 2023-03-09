@@ -45,7 +45,7 @@ int reminder = s % 3;
 System.out.println(reminder);// reminder = 1,要記
   
 
-int counter = 0;
+int counter = 1;
 System.out.println(counter);   //0
 System.out.println(++counter); //1 , execute ++ first ,the println
 System.out.println(counter);   //1

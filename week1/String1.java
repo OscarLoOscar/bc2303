@@ -1,8 +1,8 @@
 package week1;
 
 public class String1 {
-
   public static void main(String[] args) {
+  
     String name = "Today is a nice day";
     int age = 10;
     int index = 4;
@@ -32,9 +32,8 @@ public class String1 {
     // string dont use == , not a number
 
     String firstName1 = "John";
-    if (firstName1.equals("Mary")) { // str ing 可以直接.equals , **********************
-      // the best way to compare String : if ("Target
-      // String".equals(Variable))***********************
+    if (firstName1.equals("Mary")) { // string 可以直接.equals , **********************
+      // the best way to compare String : if ("Target String".equals(Variable))***********************
       System.out.println("hello");
     } else {
       System.out.println("yeah");
@@ -158,5 +157,11 @@ public class String1 {
       }
     }
     System.out.println("score: " + score);// prints 'C'
+
+    int j = 1;
+    int j1 = j++;
+    int j2 = ++j;
+    System.out.println(j1);
+    System.out.println(j2);
   }
 }
