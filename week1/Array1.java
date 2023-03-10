@@ -24,6 +24,7 @@ public class Array1 {
 
     // convert array2 to a String Array
     String[] strArray1 = new String[array2.length];
+    
     for (String s : strArray1) {
       System.out.println(s); // print null,null,null,null,,不能改寫佢
     }
@@ -35,6 +36,6 @@ public class Array1 {
     }
     System.out.println(Arrays.toString(strArray2));
 
-    String[] strArray3 = new String[]{"good morning" , "tomorrow"} //remember this patten
+    String[] strArray3 = new String[]{"good morning" , "tomorrow"}; //remember this patten
   }
 }

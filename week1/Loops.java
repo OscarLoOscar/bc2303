@@ -34,9 +34,9 @@ public class Loops {
     }
     }
     //Nested for loop
-    for (int x = 0; x < 7; x++) {
-    for (int y = 0; y <= 6; y++) {
-    for (int z = 0; z < 10; z++)
+    for (int x = 0; x < 2; x++) {
+    for (int y = 0; y <= 2; y++) {
+    for (int z = 0; z < 3; z++)
     System.out.println("x=" + x + ",y=" + y + ",z=" + z);
     }
     }
