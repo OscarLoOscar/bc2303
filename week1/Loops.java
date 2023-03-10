@@ -4,7 +4,7 @@ import javax.transaction.xa.XAException;
 
 public class Loops {
   public static void main(String[] args) {
-    //Approach 1 : FRO LOOP
+    //Approach 1 : FOR LOOP
     int i = 0;
 
     for (i = 0; i < 5; i++) { // 細階for，2個；,,count ; condition to contiune ;

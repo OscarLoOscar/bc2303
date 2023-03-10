@@ -35,5 +35,6 @@ public class Array1 {
     }
     System.out.println(Arrays.toString(strArray2));
 
+    String[] strArray3 = new String[]{"good morning" , "tomorrow"} //remember this patten
   }
 }
