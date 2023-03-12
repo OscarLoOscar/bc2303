@@ -1,17 +1,24 @@
 package week2;
 
+import java.util.List;
+
 public class School {
+
   int area;
-  Student student;
+  List<Student> students;
 
-  public static void main(String[] args) {
-    Student s1 = new Student();// instance or object
-    s1.setFirstName("John");
-    s1.setLastName("Watson");
-    s1.setAge(19);
-    s1.setCourses(null);
+//Getter
+public List<Student>getStudents(){
+return this.students;
+}
+//Setter
+public void setStudents(List<Student>students){
+this.students = students;
 
-    Student s2 = new Student();
-    s2.setLastName("Potter");
+//Exam
+Exam exam = new Exam();
+exam.setScore(60);
+if(exam.isPassed());
+System.out.println("Exam is passed");
   }
 }
