@@ -6,11 +6,11 @@ public class Flow {
 
     //in this scebarion,line 8 -> 10 -> 12 ->13 ->15
     if(a + 1 > 2){ // > , < , >= , <=
-      System.out.println("hello");
+      System.out.println("123\n");
     } else if (a == 2) { // = means assignment , ==means chick if they are equal
-      System.out.println("Code");
+      System.out.println("456\n");
     } else {
-      System.out.println("yeah"); //make sense寫法，唔等於java比你run
+      System.out.println("789\n"); //make sense寫法，唔等於java比你run
     }
     // end the if flow
 

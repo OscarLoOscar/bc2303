@@ -20,7 +20,7 @@ public class Array1 {
     for (int e : array2) {
       total = total + e; // come here 4 times
     }
-    System.out.println(total);
+    System.out.println("total:  "+total);
 
     // convert array2 to a String Array
     String[] strArray1 = new String[array2.length];
