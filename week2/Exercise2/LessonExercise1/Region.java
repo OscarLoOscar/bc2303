@@ -1,4 +1,4 @@
-package week2.Exercise2;
+package week2.Exercise2.LessonExercise1;
 
 public class Region {
   private String country;

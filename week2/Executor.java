@@ -57,5 +57,7 @@ public class Executor {
     //all arhuments constructor , student("john","lau",24)
     Student st3 = new Student("John","Lau",24);
     st3.setFirstName("Mary");
+
+    System.out.println(st3);
   }
 }
