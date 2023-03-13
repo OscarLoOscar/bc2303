@@ -17,10 +17,6 @@ public class Student {
     this.lastName = lastName;
   }
 
-  public void setCourses(Object object) { // void意思，無野retuen，霸住return type位置
-    this.courses = courses;
-  }
-
   public void setAge(int i) {
     this.age = i;
 
@@ -33,10 +29,6 @@ public class Student {
 
   public String getLastName() {
     return this.lastName;
-  }
-
-  public String courses() {
-    return this.courses;
   }
 
   public int age() {
@@ -80,8 +72,8 @@ public class Student {
 
   }
 
-  //all-argument constructor
-  public Student(String firstName, String lastName, int age) { //non-empty constructor,一有呢個，EMPTY CONSTRUCTOR會清失
+  // all-argument constructor
+  public Student(String firstName, String lastName, int age) { // non-empty constructor,一有呢個，EMPTY CONSTRUCTOR會清失
     this.firstName = firstName;
     this.lastName = lastName;
     this.age = age;

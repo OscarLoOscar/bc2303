@@ -38,7 +38,7 @@ public class Executor {
     // executor.age = (10);
     // executor.setAge(10);
 
-    //encapsulation ： 透過public methods 去控制private既methods,！！！！透過methods去組合state！！！ 
+    //encapsulation ： 透過public methods 去控制private既methods,*透過methods去組合state**
     // think about whats the raw data
     Student st1 = new Student();//constructor，一個方式construct個object
     st1.setFirstName("John");
