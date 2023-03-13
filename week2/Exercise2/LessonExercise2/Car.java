@@ -4,7 +4,7 @@ import javax.swing.event.SwingPropertyChangeSupport;
 import javax.swing.plaf.synth.SynthToolTipUI;
 
 public class Car {
-  private String make;
+  private static String make;
   private String model;
   private int year;
   //
@@ -58,7 +58,7 @@ public class Car {
     car4.getMake();
 
     Car car5;
-    car5 = new Car();
+    car5 = new Car(make, make, year);
     
   }
 
