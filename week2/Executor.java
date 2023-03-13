@@ -35,5 +35,8 @@ public class Executor {
         System.out.println("Exam is passed");
       }
     }
+    Executor executor = new Executor();
+execytor.age=(10);
+execytor.setAge(10);
   }
 }

@@ -5,7 +5,7 @@ public class Wine {
   private int vintage;
   private String region;
 
-
+//出面set野入黎
   public void setgrape(String grape){
     this.grape = grape;
   }
@@ -15,14 +15,14 @@ public class Wine {
   public void setregion(String region){
     this.region = region;
   }
-  //
-  public String setgrape(){
+  // getter of
+  public String getgrape(){
     return this.grape;
   }
-  public int setvintage(){
+  public int getvintage(){
     return this.vintage;
   }
-  public String setregion(){
+  public String getregion(){
     return this.region;
   }
   

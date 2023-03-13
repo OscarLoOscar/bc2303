@@ -5,23 +5,27 @@ public class Grape {
   private String colour;
   private boolean isDry;
 
-  public String setName(){
+  public String setName() {
     return this.name;
   }
-  public String setColour(){ 
-  return this.colour;
-}
-  public boolean isDry(){
+
+  public String setColour() {
+    return this.colour;
+  }
+
+  public boolean isDry() {
     return this.isDry;
   }
-  
-//
 
-public void setName(String name){
-  this.name = name;
-}
+  //
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
 public void setColour(String colour){
   this.colour = colour;
 }
-public void setIsDry(int )
+
+public void setIsDry(int);
 }
