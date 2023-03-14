@@ -14,11 +14,11 @@ return this.students;
 //Setter
 public void setStudents(List<Student>students){
 this.students = students;
-
 //Exam
 Exam exam = new Exam();
 exam.setScore(60);
 if(exam.isPassed());
 System.out.println("Exam is passed");
+exam.toString(); //所有class生產既object己經天然地係object既subclass
   }
 }

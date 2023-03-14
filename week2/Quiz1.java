@@ -16,7 +16,8 @@ public class Quiz1 {
     byte daysOfWeek = 7;
     byte hoursOfWeek = (byte) (hoursOfDay * daysOfWeek);
     System.out.println("q2 = " + hoursOfWeek);
-    //
+
+    // Q5
     String str = "";
     for (byte i = 127; i < 128; i++) {
       str += i;
@@ -24,8 +25,8 @@ public class Quiz1 {
         break;
       }
     }
-    // System.out.println("q5=" + str);
-    // //
+    System.out.println("q5=" + str); //127 -128
+    //
     // String stra = "";
     // for (byte i = 127; i < 128; i++) {
     // if (i < 0) {
@@ -34,6 +35,7 @@ public class Quiz1 {
     // stra += i;
     // System.out.println("q6=" + str);// 無限LOOP
 
+    //Q7
     int[] integers = { 20, 10, 40 };
     byte[] bytes = new byte[] { 2, 4, 1 };
     int score = 0;
@@ -45,6 +47,8 @@ public class Quiz1 {
       }
       System.out.println("q7 = " + score);
     }
+
+    //Q8
     ArrayList<Byte> bytes8 = new ArrayList<>();
     bytes8.add((byte) 20);
     bytes8.add((byte) 14);

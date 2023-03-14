@@ -23,6 +23,9 @@ public class Executor {
     students.add(s2);
     school.setStudents(students);
 
+    //
+    //
+    //
     // Exam
     Exam exam = new Exam();
     exam.setScore(60);
@@ -38,9 +41,9 @@ public class Executor {
     // executor.age = (10);
     // executor.setAge(10);
 
-    //encapsulation ： 透過public methods 去控制private既methods,*透過methods去組合state**
+    // encapsulation ： 透過public methods 去控制private既methods,*透過methods去組合state**
     // think about whats the raw data
-    Student st1 = new Student();//constructor，一個方式construct個object
+    Student st1 = new Student();// constructor，一個方式construct個object
     st1.setFirstName("John");
     st1.setLastName("WONG");
     System.out.println(st1.getFullName());
@@ -48,16 +51,22 @@ public class Executor {
     st1.getPassRate(0.23);
     st1.getPassRateInPercentage();
 
-    //toString
-    System.out.println(st1.toString()); 
-    //constructor
-    Student st2 =  new Student();
+    // toString
+    System.out.println(st1.toString());
+    // constructor
+    Student st2 = new Student();
     st2.setFirstName("John");
 
-    //all arhuments constructor , student("john","lau",24)
-    Student st3 = new Student("John","Lau",24);
+    // all arhuments constructor , student("john","lau",24)
+    Student st3 = new Student("John", "Lau", 24);
     st3.setFirstName("Mary");
 
     System.out.println(st3);
+
+    String str = "hello";
+    if (str.equals("hello")) {
+      // do something
+    }
+
   }
 }
