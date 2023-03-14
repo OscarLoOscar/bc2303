@@ -2,12 +2,13 @@ package week2.Exercise2.LessonExercise3;
 
 public abstract class Food {
   private String name;
-  private String type;
+  private int calories;
   private int price;
+  
 
-  public Food(String name, String type, int price) {
+  public Food(String name, int calories, int price) {
     this.name = name;
-    this.type = type;
+    this.calories = calories;
     this.price = price;
   }
 
@@ -23,12 +24,12 @@ public abstract class Food {
     return this.name = name;
   }
 
-  public void setTypee(String type) {
-    this.type = type;
+  public void setCalories(int calories) {
+    this.calories = calories;
   }
 
-  public String getType() {
-    return this.type = type;
+  public int getCalories() {
+    return this.calories = calories;
   }
 
   public void setPrice(int price) {
@@ -40,7 +41,15 @@ public abstract class Food {
   }
 
   public void itIsFree() {
-    System.out.println("Free Cake");
-  }
 
-}
+    int i = this.price;
+      if (i < 98) {
+        System.out.println("This is Free");
+      } else {
+        if (i >= 98) {
+          System.out.println("This is not Free");
+        }
+
+      }
+    }
+  }

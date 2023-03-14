@@ -1,5 +1,7 @@
 package week2.Exercise2.LessonExercise2;
 
+import javax.swing.plaf.synth.SynthScrollBarUI;
+
 public class Cat extends Animal { // 只能extend一樣,
   // inherited
   String color;
@@ -33,8 +35,29 @@ public class Cat extends Animal { // 只能extend一樣,
 
     System.out.println(cat1.toString());
     // Cat cat2 = new Cat("Sally", "Yellow");
+    //
+    //
+    // public String sound(){ //return 右邊要有野接
+    // System.out.println("Meow Meow Meow");
 
-    // cat2.toString();
+    // }
+    // public void sound2(){
+    // System.out.println("Meow Meow Meow");
+    // }
+
+public static int sum(int... numbers) {
+    int total = 0;
+    for (int num : numbers) {
+        total += num;
+    }
+    return total;
+}
+
+public static void main(String[] args) {
+    int sum1 = sum(1, 2, 3, 4, 5); // sum1 is 15
+    int sum2 = sum(); // sum2 is 0
+    int sum3 = sum(10); // sum3 is 10
+}
+
   }
-
 }
